@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block head %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/main.css') }}"
+/>
+
+{% endblock %} {% block body %}
+<div class="container">
+  <h1>Title Prediction</h1>
+  <form action="/predict" method="post">
+    <label for="title">Enter a title:</label>
+    <input type="text" id="title" name="title" required />
+    <button type="submit">Predict</button>
+  </form>
+
+  {% if prediction %}
+  <div class="prediction show">
+    <p>{{ prediction }}</p>
+  </div>
+  {% endif %}
+
+  <div class="corner-text">Free Palestine</div>
+</div>
+{% endblock %}

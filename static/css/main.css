@@ -1,0 +1,95 @@
+/* main.css */
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Example font family */
+    background-image: url("/static/images/pkids.jpeg");
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust background transparency */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow */
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #006837;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #006837; /* Highlight border color on focus */
+}
+
+button {
+    background-color: #006837;
+    color: #fff;
+    padding: 14px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005024;
+}
+
+.prediction {
+    opacity: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    transition: opacity 0.5s ease;
+}
+
+.prediction.show {
+    opacity: 1;
+}
+
+
+.corner-text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'Lucida Console', monospace;
+    font-size: 24px;
+    color: #e74c3c;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+
