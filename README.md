@@ -1,7 +1,7 @@
-# text_classification_project_palestinian_occupation
+# text_classification_project_occupation_of_palestine
 
 ## Description:
-The Palestinian occupation Title Classifier is a machine learning project designed to classify titles related to the Palestinian occupation into 3 distinct categories. Leveraging Natural Language Processing (NLP) techniques and a Long Short-Term Memory (LSTM) neural network model, the system predicts the category of a given title among predefined classes : Media and Public Opinion/Politics and Diplomacy/Violence and Humanitarian Crisis. Trained on a dataset of titles specifically curated from subreddits related to the Palestinian occupation. Users can input titles and receive predictions instantly, aiding in the analysis and understanding of media discourse surrounding the Palestinian occupation.
+Thi Title Classifier is a machine learning project designed to classify titles related to the occupation of Palestine into 3 distinct categories. Leveraging Natural Language Processing (NLP) techniques and a Long Short-Term Memory (LSTM) neural network model, the system predicts the category of a given title among predefined classes : Media and Public Opinion/Politics and Diplomacy/Violence and Humanitarian Crisis. Trained on a dataset of titles specifically curated from subreddits related to the occupation of Palestine. Users can input titles and receive predictions instantly, aiding in the analysis and understanding of media discourse surrounding the Topic.
 
 ![workflow (1)](https://github.com/AmmariHiba/text_classification_project_palestinian_occupation/assets/121461519/6629a8ff-f3b8-491c-9bd6-905bf7c84c1e)
 
