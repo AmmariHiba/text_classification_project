@@ -1,4 +1,4 @@
-# text_classification_project_occupation_of_palestine
+# text_classification_project
 
 ## Description:
 Thi Title Classifier is a machine learning project designed to classify titles related to the occupation of Palestine into 3 distinct categories. Leveraging Natural Language Processing (NLP) techniques and a Long Short-Term Memory (LSTM) neural network model, the system predicts the category of a given title among predefined classes : Media and Public Opinion/Politics and Diplomacy/Violence and Humanitarian Crisis. Trained on a dataset of titles specifically curated from subreddits related to the occupation of Palestine. Users can input titles and receive predictions instantly, aiding in the analysis and understanding of media discourse surrounding the Topic.
